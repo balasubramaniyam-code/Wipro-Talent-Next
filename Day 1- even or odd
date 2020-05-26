@@ -1,0 +1,30 @@
+import java.util.*;
+import java.util.Scanner;
+public class Bala {
+
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a;
+		System.out.print("enter a number");
+		Scanner in =new Scanner(System.in);
+		a=in.nextInt();
+		if(a%2==0)
+		{
+			System.out.println("even");
+		}
+		else if(a==1){
+			System.out.print("composite number");
+			
+		}
+		
+		else {
+			System.out.println("odd");
+		}
+		
+		
+
+	}
+
+}
