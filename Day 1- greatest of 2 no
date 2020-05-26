@@ -1,0 +1,27 @@
+import java.util.*;
+import java.util.Scanner;
+public class Bala {
+
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a,b;
+		System.out.println("enter two number");
+		Scanner in =new Scanner(System.in);
+		Scanner out =new Scanner(System.in);
+		a=in.nextInt();
+		b=out.nextInt();
+		if(a>b)
+		{
+			System.out.print(a+"is greater than"+b);
+		}
+		else
+		{
+			System.out.print(b+"is greater than"+a);
+		}
+		
+
+	}
+
+}
